@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7614A46100E1C8F03EA92C /* Pods_CacheDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449E5AECC9914F6BC20649BF /* Pods_CacheDemo.framework */; };
 		C6E38BDD2110B192005EF85E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E38BDC2110B192005EF85E /* AppDelegate.swift */; };
 		C6E38BDF2110B192005EF85E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E38BDE2110B192005EF85E /* ViewController.swift */; };
 		C6E38BE22110B192005EF85E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E38BE02110B192005EF85E /* Main.storyboard */; };
 		C6E38BE42110B193005EF85E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E38BE32110B193005EF85E /* Assets.xcassets */; };
 		C6E38BE72110B193005EF85E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E38BE52110B193005EF85E /* LaunchScreen.storyboard */; };
 		C6E38BF22110B194005EF85E /* CacheDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E38BF12110B194005EF85E /* CacheDemoTests.swift */; };
+		C6E38BFD2110B49E005EF85E /* CacheControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E38BFC2110B49E005EF85E /* CacheControl.swift */; };
+		C6E38BFF2110B6F4005EF85E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E38BFE2110B6F4005EF85E /* SecondViewController.swift */; };
+		C6E38C012111FFF0005EF85E /* MyCustomHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E38C002111FFF0005EF85E /* MyCustomHeader.swift */; };
+		C6E38C0521121D1A005EF85E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E38C0421121D1A005EF85E /* Manager.swift */; };
+		C6E38C0721121D9E005EF85E /* MyCustomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E38C0621121D9E005EF85E /* MyCustomService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		449E5AECC9914F6BC20649BF /* Pods_CacheDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CacheDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1AC8C0AB01AC8DF25329A8 /* Pods-CacheDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CacheDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CacheDemo/Pods-CacheDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C6E38BD92110B192005EF85E /* CacheDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CacheDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E38BDC2110B192005EF85E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6E38BDE2110B192005EF85E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +44,12 @@
 		C6E38BED2110B194005EF85E /* CacheDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CacheDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E38BF12110B194005EF85E /* CacheDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheDemoTests.swift; sourceTree = "<group>"; };
 		C6E38BF32110B194005EF85E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6E38BFC2110B49E005EF85E /* CacheControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheControl.swift; sourceTree = "<group>"; };
+		C6E38BFE2110B6F4005EF85E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C6E38C002111FFF0005EF85E /* MyCustomHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomHeader.swift; sourceTree = "<group>"; };
+		C6E38C0421121D1A005EF85E /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		C6E38C0621121D9E005EF85E /* MyCustomService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomService.swift; sourceTree = "<group>"; };
+		F2AA4A6441B01DE53B30FD37 /* Pods-CacheDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CacheDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CacheDemo/Pods-CacheDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7614A46100E1C8F03EA92C /* Pods_CacheDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28E3AA7ECE4542A11C1AF065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				449E5AECC9914F6BC20649BF /* Pods_CacheDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6495C59C9CFDEBD6236443A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2AA4A6441B01DE53B30FD37 /* Pods-CacheDemo.debug.xcconfig */,
+				9B1AC8C0AB01AC8DF25329A8 /* Pods-CacheDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C6E38BD02110B192005EF85E = {
 			isa = PBXGroup;
 			children = (
 				C6E38BDB2110B192005EF85E /* CacheDemo */,
 				C6E38BF02110B194005EF85E /* CacheDemoTests */,
 				C6E38BDA2110B192005EF85E /* Products */,
+				6495C59C9CFDEBD6236443A2 /* Pods */,
+				28E3AA7ECE4542A11C1AF065 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +117,11 @@
 				C6E38BE32110B193005EF85E /* Assets.xcassets */,
 				C6E38BE52110B193005EF85E /* LaunchScreen.storyboard */,
 				C6E38BE82110B193005EF85E /* Info.plist */,
+				C6E38BFC2110B49E005EF85E /* CacheControl.swift */,
+				C6E38BFE2110B6F4005EF85E /* SecondViewController.swift */,
+				C6E38C002111FFF0005EF85E /* MyCustomHeader.swift */,
+				C6E38C0421121D1A005EF85E /* Manager.swift */,
+				C6E38C0621121D9E005EF85E /* MyCustomService.swift */,
 			);
 			path = CacheDemo;
 			sourceTree = "<group>";
@@ -103,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6E38BF62110B194005EF85E /* Build configuration list for PBXNativeTarget "CacheDemo" */;
 			buildPhases = (
+				96B39580807FF4506C90CBFA /* [CP] Check Pods Manifest.lock */,
 				C6E38BD52110B192005EF85E /* Sources */,
 				C6E38BD62110B192005EF85E /* Frameworks */,
 				C6E38BD72110B192005EF85E /* Resources */,
+				10D51CBDC068E9632DE53313 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,12 +233,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10D51CBDC068E9632DE53313 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CacheDemo/Pods-CacheDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CacheDemo/Pods-CacheDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B39580807FF4506C90CBFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CacheDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6E38BD52110B192005EF85E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E38BFF2110B6F4005EF85E /* SecondViewController.swift in Sources */,
+				C6E38C0721121D9E005EF85E /* MyCustomService.swift in Sources */,
+				C6E38BFD2110B49E005EF85E /* CacheControl.swift in Sources */,
+				C6E38C012111FFF0005EF85E /* MyCustomHeader.swift in Sources */,
 				C6E38BDF2110B192005EF85E /* ViewController.swift in Sources */,
+				C6E38C0521121D1A005EF85E /* Manager.swift in Sources */,
 				C6E38BDD2110B192005EF85E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,11 +443,13 @@
 		};
 		C6E38BF72110B194005EF85E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AA4A6441B01DE53B30FD37 /* Pods-CacheDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SRB7V8EQ8;
 				INFOPLIST_FILE = CacheDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,11 +463,13 @@
 		};
 		C6E38BF82110B194005EF85E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1AC8C0AB01AC8DF25329A8 /* Pods-CacheDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SRB7V8EQ8;
 				INFOPLIST_FILE = CacheDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
