@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     
     var urlCache: URLCache!
      var manager: SessionManager!
-//    let urlString = "https://httpbin.org/response-headers"
-   let urlString = "https://staging.boschnext.com/dev/RB.Bnext.Configuration/v1.0/api/configuration/ios/version?currentVersion=2.4.0"
+    let urlString = "https://httpbin.org/response-headers"
+//   let urlString = "https://staging.boschnext.com/dev/RB.Bnext.Configuration/v1.0/api/configuration/ios/version?currentVersion=2.4.0"
     let requestTimeout: TimeInterval = 30
     var requests: [String: URLRequest] = [:]
     var timestamps: [String: String] = [:]
@@ -60,18 +60,18 @@ class ViewController: UIViewController {
                 if  (response == nil || response.result.value == nil) {
                     return
                 }
-                 let swiftyJsonVar = JSON(response.result.value!)
-                let appVersion = swiftyJsonVar["latestVersion"].stringValue
-                 let forceUpdate = swiftyJsonVar["forceUpdate"].intValue
-                var requiresUpdate :String?
-                if forceUpdate == 0 {
-                    requiresUpdate = "false"
-                }
-                else{
-                    requiresUpdate = "true"
-                }
-               self.appVersion.text = appVersion
-               self.requiresUpdate.text = requiresUpdate
+//                 let swiftyJsonVar = JSON(response.result.value!)
+//                let appVersion = swiftyJsonVar["latestVersion"].stringValue
+//                 let forceUpdate = swiftyJsonVar["forceUpdate"].intValue
+//                var requiresUpdate :String?
+//                if forceUpdate == 0 {
+//                    requiresUpdate = "false"
+//                }
+//                else{
+//                    requiresUpdate = "true"
+//                }
+//               self.appVersion.text = appVersion
+//               self.requiresUpdate.text = requiresUpdate
             }
             print(response)
         }
